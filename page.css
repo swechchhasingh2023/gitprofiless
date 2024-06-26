@@ -146,5 +146,40 @@ a:link {
     color: var(--color);
     font-size: 1.5em;
   }
-  
+  .header-logo{
+    display: flex;
+    width: 100%;
+    background-color: #a80f5c;
+  }
 
+  .header-logo > img{
+    height: 90px;
+    width: 30%;
+    background-color: #a80f5c;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+.li-items{
+  background-color: #a80f5c;
+  color: white;
+  margin-left: 33%;
+  padding-top: 25px;
+}
+.ul-main{
+  background: #a80f5c;
+  display: flex;
+}
+.ul-main a{
+  color: white;
+  height: 30px;
+  font-size: 25px;
+ font-weight: bold;
+}
